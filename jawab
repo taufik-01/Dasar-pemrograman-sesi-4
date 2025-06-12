@@ -1,0 +1,114 @@
+#No1
+
+# Aritmatika
+# a. Budi membagi 12 apel kepada 4 temannya
+apel = 12
+teman = 4
+apel_per_teman = apel / teman
+print("Setiap teman mendapat", apel_per_teman, "apel.")
+
+# b. Budi mendapat tambahan 8 apel
+apel += 8
+print("Total apel Budi sekarang:", apel)
+
+#output yang kan muncul setelah di run
+Setiap teman mendapat 3.0 apel.
+Total apel Budi sekarang: 20
+
+#No2
+
+# Perbandingan tinggi
+siti = 160
+andi = 165
+
+if siti > andi:
+    print("Siti lebih tinggi dari Andi.")
+elif siti < andi:
+    print("Andi lebih tinggi dari Siti.")
+else:
+    print("Siti dan Andi memiliki tinggi yang sama.")
+
+#output yang kan muncul setelah di run
+Andi lebih tinggi dari Siti.
+
+#No3
+
+# Logika
+cuaca_cerah = True
+selesai_pr = True
+
+if cuaca_cerah and selesai_pr:
+    print("Budi bisa bermain di luar.")
+else:
+    print("Budi tidak bisa bermain di luar.")
+
+#output yang kan muncul setelah di run
+Budi bisa bermain di luar.
+
+#No4
+
+# Bitwise
+angka1 = 0b0110  # 6
+angka2 = 0b0011  # 3
+
+hasil_and = angka1 & angka2
+hasil_or = angka1 | angka2
+hasil_xor = angka1 ^ angka2
+
+print("Hasil AND:", bin(hasil_and))
+print("Hasil OR :", bin(hasil_or))
+print("Hasil XOR:", bin(hasil_xor))
+
+#output yang kan muncul setelah di run
+Hasil AND: 0b10
+Hasil OR : 0b111
+Hasil XOR: 0b101
+
+#No5
+
+# Penugasan
+saldo = 50000
+saldo -= 20000  # isi pulsa
+saldo -= 30000  # beli paket internet
+print("Sisa saldo:", saldo)
+
+#output yang kan muncul setelah di run
+Sisa saldo: 0
+
+#No6
+
+# Keanggotaan dalam list
+peserta = ["Andi", "Budi", "Citra", "Dewi"]
+print("Eka terdaftar:", "Eka" in peserta)
+
+# Keanggotaan dalam string
+kalimat = "Saya suka belajar Python"
+print("Apakah 'Python' ada dalam kalimat:", "Python" in kalimat)
+
+#output yang kan muncul setelah di run
+Eka terdaftar: False
+Apakah 'Python' ada dalam kalimat: True
+
+#No7
+
+# Identitas
+x = [1, 2, 3]
+y = x
+z = [1, 2, 3]
+
+print("x is y:", x is y)      # True karena y = x
+print("x is z:", x is z)      # False karena z walau isinya sama tapi beda objek
+
+#output yang kan muncul setelah di run
+x is y: True
+x is z: False
+
+#No8
+
+# Ternary
+nilai = 75
+status = "Lulus" if nilai >= 70 else "Tidak Lulus"
+print("Status kelulusan:", status)
+
+#output yang kan muncul setelah di run
+Status kelulusan: Lulus
